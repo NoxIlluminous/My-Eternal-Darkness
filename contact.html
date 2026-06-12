@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Placeholder
+            enquiries.">
+            <title> Contact</title>
+            <link rel="stylesheet" href="css/global.css">   <!-- Shared styles (includes form styles) -->
+            <link rel="stylesheet" href="css/contact.css">  <!-- Contact-page-only styles -->
+            </head>
+            <body>
+                <header class="site-header">
+                    <a class="logo" href="index.html">
+                    <img src="img/My Eternal Darkness.jpg" alt="My Eternal Darkness Brand" width="700">
+                    <span>Gothic Lolita</span>
+                    </a>
+                <!-- MOBILE MENU TOGGLE: shown on mobile only; desktop/tablet keep the normal 
+                navigation visible -->
+                <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Toggle 
+                navigation menu">
+                        <label class="menu-button" for="menu-toggle">
+                        <img src="img/icon.png" alt="" aria-hidden="true">
+                        <span>Menu</span>
+                        </label>
+                    <nav aria-label="Primary">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="products.html">Clothes</a>
+                        <a href="checkout.html">Checkout</a>
+                        <a class="active" href="contact.html">Contact</a>
+                    </nav>
+                </header>
+            <main>
+            <section>
+            <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Toggle navigation 
+            menu">
+            <!-- CONTACT INTRO -->
+            <h1>Contact us</h1>
+            <p class="contact-details">  <!-- Styled by contact.css: monospace font, yellow -->
+            Email: support@Eternal-Darkness.com &nbsp;|&nbsp; Phone: 1300 555 789
+            <!-- &nbsp; = non-breaking space; keeps the | separator from touching the text -->
+            </p>
+            </section>
+            <!-- CONTACT FORM -->
+            <section>
+            <form action="#" method="post">
+            <!-- action="#" = no server connected; method="post" = data sent in request body -->
+            <fieldset>  <!-- Groups related fields with a visible border -->
+            <legend>Open a Transmission</legend>  <!-- Title shown on fieldset border -->
+            <div class="form-grid">  <!-- Two-column grid layout -->
+            <div class="field-group">  <!-- Stack label above input -->
+            <label for="contact_name">Your Name</label>  <!-- for= links to input id= -->
+            <input type="text" id="contact_name" name="contact_name"
+            placeholder="e.g. Rory Mercury" required>
+            <!-- type="text" = plain text box; required = can't submit if empty -->
+            </div>
+            <div class="field-group">
+            <label for="contact_email">Your Email</label>
+            <input type="email" id="contact_email" name="contact_email"
+            placeholder="Rory.Mercury@email.com" required>
+            <!-- type="email" validates the address format automatically -->
+            </div>
+            <div class="field-group full">  <!-- class="full" = span both columns -->
+            <label for="contact_message">Your Message</label>
+            <textarea id="contact_message" name="contact_message"
+            placeholder="" required></textarea>
+            <!-- textarea = multi-line text box; no self-closing tag -->
+            </div>
+            </div>
+            <div class="actions">  <!-- Flexbox row for buttons -->
+            <button type="submit">Send</button>  <!-- Submits the form -->
+            <button type="reset">Clear </button>         
+            </div>
+            </fieldset>
+            </form>
+            </section>
+            </main>
+                <footer>
+                    <!-- Clears all fields -->
+                    <p>&copy; 2026 Eternal-Darkness &mdash; Gothic Lolita Fashion Enthusiast Store</p>
+                    
+                </footer>
+        </body>
+    </html

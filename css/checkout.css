@@ -1,0 +1,18 @@
+/* ============================================================
+checkout.css — Checkout page only styles
+Loaded by: checkout.html (after global.css)
+============================================================ */
+.inline-options {
+    display: flex;       
+    flex-wrap: wrap;     
+    gap: 0.8rem;
+    margin-top: 0.4rem;
+    }
+    .inline-options label {
+    margin: 0;
+    /* Radio buttons in a row */
+    /* Wrap to next line if needed */
+    font-weight: 400;   /* Normal weight — lighter than form labels */
+    color: var(--muted);
+    cursor: pointer;    
+    }

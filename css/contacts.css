@@ -1,0 +1,10 @@
+/* ============================================================
+contact.css — Contact page only styles
+Loaded by: contact.html (after global.css)
+============================================================ */
+.contact-details {
+    font-size: 0.95rem;
+    }
+    font-family: monospace; /* Fixed-width font — like a terminal */
+    color: var(--accent);   /* LEGO yellow */
+    margin-top: 0.5rem 
